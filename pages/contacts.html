@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио студента-разработчика Глеба Ушакова. Страница обратной связи.">
+    <title>Контакты — StudentDev Portfolio</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<div class="page">
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">Глеб Ушаков</h1>
+                <p class="header__subtitle">Контакты</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav" role="navigation" aria-label="Основное меню">
+        <div class="container">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="../index.html" class="nav__link">Главная</a>
+                </li>
+                <li class="nav__item">
+                    <a href="projects.html" class="nav__link">Проекты</a>
+                </li>
+                <li class="nav__item">
+                    <a href="diary.html" class="nav__link">Дневник</a>
+                </li>
+                <li class="nav__item nav__item--active">
+                    <a href="contacts.html" class="nav__link" aria-current="page">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="main" role="main">
+        <div class="container contacts__content">
+
+            <!-- Contact Form -->
+            <section class="contact-form" aria-label="Форма обратной связи">
+                <h2 class="section-title">Связаться со мной</h2>
+                <form class="form" aria-label="Форма отправки сообщения">
+                    <div class="form__group">
+                        <label class="form__label" for="name">Имя</label>
+                        <input class="form__input" type="text" id="name" placeholder="Ваше имя" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="email">Email</label>
+                        <input class="form__input" type="email" id="email" placeholder="example@mail.com" required>
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="message">Сообщение</label>
+                        <textarea class="form__textarea" id="message" placeholder="Ваше сообщение" required></textarea>
+                    </div>
+
+                    <button class="button button--primary form__button" type="submit">Отправить</button>
+                </form>
+            </section>
+
+            <!-- Contact Info -->
+            <section class="contact-info" aria-label="Контактная информация">
+                <h2 class="contact-info__title">Контактная информация</h2>
+                <div class="contact-info__items">
+
+                    <div class="contact-item">
+                        <i class="contact-item__icon fa-solid fa-envelope" aria-hidden="true"></i>
+                        <div class="contact-item__content">
+                            <div class="contact-item__title">Email</div>
+                            <div class="contact-item__value">
+                                <a href="mailto:student@edu.ru">student@edu.ru</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="contact-item__icon fa-brands fa-github" aria-hidden="true"></i>
+                        <div class="contact-item__content">
+                            <div class="contact-item__title">GitHub</div>
+                            <div class="contact-item__value">
+                                <a href="https://github.com/lanmast88" target="_blank" rel="noopener noreferrer">lanmast88</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="contact-item__icon fa-solid fa-phone" aria-hidden="true"></i>
+                        <div class="contact-item__content">
+                            <div class="contact-item__title">Телефон</div>
+                            <div class="contact-item__value">+7 (999) 123-45-67</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="contact-item__icon fa-solid fa-location-dot" aria-hidden="true"></i>
+                        <div class="contact-item__content">
+                            <div class="contact-item__title">Адрес</div>
+                            <div class="contact-item__value">Москва, Россия</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">
+                    © 2025 StudentDev Portfolio
+                </p>
+                <div class="footer__links">
+                    <a href="mailto:student@edu.ru" class="footer__link">student@edu.ru</a>
+                    <a href="https://github.com/lanmast88" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

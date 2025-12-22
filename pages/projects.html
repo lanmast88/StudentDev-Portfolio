@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио студента-разработчика Глеба Ушакова. Страница с проектами.">
+    <title>Проекты - StudentDev Portfolio</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <div class="page">
+
+        <!-- Header -->
+        <header class="header" role="banner">
+            <div class="container">
+                <div class="header__content">
+                    <h1 class="header__title">Глеб Ушаков</h1>
+                    <p class="header__subtitle">Студент-разработчик</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav" role="navigation" aria-label="Основное меню">
+            <div class="container">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">Главная</a>
+                    </li>
+                    <li class="nav__item nav__item--active">
+                        <a href="projects.html" class="nav__link" aria-current="page">Проекты</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="diary.html" class="nav__link">Дневник</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contacts.html" class="nav__link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <main class="main" role="main">
+            <div class="container">
+
+                <!-- Projects Preview -->
+                <section class="projects-preview">
+                    <h2 class="section-title">Мои проекты</h2>
+
+                    <div class="projects-filters-block">
+                        <div class="projects__filters" role="group" aria-label="Фильтр проектов">
+                            <button class="filter filter--active" aria-pressed="true">Все проекты</button>
+                            <button class="filter" aria-pressed="false">HTML</button>
+                            <button class="filter" aria-pressed="false">CSS</button>
+                            <button class="filter" aria-pressed="false">JavaScript</button>
+                            <button class="filter" aria-pressed="false">React</button>
+                            <button class="filter" aria-pressed="false">API</button>
+                        </div>
+                    </div>
+                    
+                    <div class="projects__grid">
+                        <article class="project-card" aria-label="Проект Личный сайт">
+                            <div class="project-card__image">
+                                <img src="../images/portfolio_project.png" alt="Личный сайт" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Личный сайт</h3>
+                                <p class="project-card__description">
+                                    Адаптивный сайт-портфолио на HTML и CSS
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" aria-label="Проект Todo приложение">
+                            <div class="project-card__image">
+                                <img src="../images/todo_project.jpg" alt="Todo приложение" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Todo приложение</h3>
+                                <p class="project-card__description">
+                                    Приложение для управления задачами
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">JavaScript</span>
+                                    <span class="tag">LocalStorage</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" aria-label="Проект Интернет-магазин">
+                            <div class="project-card__image">
+                                <img src="../images/shop_project.jpg" alt="Интернет-магазин" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Интернет-магазин</h3>
+                                <p class="project-card__description">
+                                    Прототип магазина с корзиной товаров
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">React</span>
+                                    <span class="tag">API</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" aria-label="Проект Помидоро">
+                            <div class="project-card__image">
+                                <img src="../images/pomidoro_project.png" alt="Помидоро сайт" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Помидоро</h3>
+                                <p class="project-card__description">
+                                    Таймер Помидоро для повышения продуктивности
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" aria-label="Проект Учёт бюджета">
+                            <div class="project-card__image">
+                                <img src="../images/budget_accounting_project.png" alt="Учёт бюджета" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Учёт бюджета</h3>
+                                <p class="project-card__description">
+                                    Простое и эффективное решение для контроля ваших финансов
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">React</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="project-card" aria-label="Проект Цветовые палитры">
+                            <div class="project-card__image">
+                                <img src="../images/colors_picker_project.png" alt="Цветовые палитры" class="responsive-image object-fit-cover" loading="lazy">
+                            </div>
+                            <div class="project-card__content">
+                                <h3 class="project-card__title">Цветовые палитры</h3>
+                                <p class="project-card__description">
+                                    Интерактивная галерея цветовых палитр
+                                </p>
+                                <div class="project-card__tags">
+                                    <span class="tag">HTML</span>
+                                    <span class="tag">CSS</span>
+                                    <span class="tag">React</span>
+                                </div>
+                            </div>
+                        </article>
+                        
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="footer__content">
+                    <p class="footer__copyright">&copy; 2025 StudentDev Portfolio</p>
+                    <div class="footer__links">
+                        <a href="mailto:student@edu.ru" class="footer__link">student@edu.ru</a>
+                        <a href="https://github.com" class="footer__link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
